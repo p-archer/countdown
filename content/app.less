@@ -1,0 +1,45 @@
+@primary: #2196f5;
+@accent: #4caf50;
+
+body {
+	background-color: #333;
+	border-radius: 10px;
+	font-family: Roboto;
+	overflow: hidden;
+
+	.main {
+		color: white;
+
+		button {
+			background-color: @accent;
+			border-radius: 2px;
+			border: none;
+			color: white;
+			display: block;
+			font-weight: bold;
+			height: 36px;
+			margin: 8px auto;
+			min-height: 36px;
+			padding: 8px 16px;
+			text-transform: uppercase;
+		}
+
+		h3 {
+			display: block;
+			text-align: center;
+
+			.highlight {
+				color: @primary;
+			}
+		}
+
+		a.details {
+			color: @primary;
+			display: block;
+			font-size: 12px;
+			justify-content: center;
+			text-align: center;
+			text-decoration: none;
+		}
+	}
+}
